@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": false,
+    "strict": true,
+    "skipLibCheck": true,
+    "target": "ES2017",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "incremental": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types", "./types"] // Incluye explícitamente los tipos
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
