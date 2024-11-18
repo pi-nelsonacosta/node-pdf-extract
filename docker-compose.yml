@@ -27,7 +27,7 @@ services:
 
   mongo_database:
     image: mongo:5.0
-    container_name: mongo_container
+    container_name: mongo_container_new
     environment:
       MONGO_INITDB_DATABASE: document_logs
       MONGO_ALLOW_EMPTY_PASSWORD: "yes"
